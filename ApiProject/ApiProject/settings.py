@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-@dw29-ezf8jnv)%74nxkv-vr#rw6hg1#rf%1&$piq_oj^lhbq_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+'https://winmac-analysis.onrender.com/'
+]
 
 CORS_ORIGIN_ALLOW_ALL = True
 
@@ -61,6 +63,7 @@ ROOT_URLCONF = 'ApiProject.urls'
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
+    'https://winmac-analysis.onrender.com/'
 ]
 
 TEMPLATES = [
